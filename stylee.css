@@ -1,0 +1,51 @@
+            body {
+                font-family: "Jaro", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: 200;
+                font-style: normal;
+                color: rgb(0, 19, 61);
+            }
+
+            .container {
+
+                width: 60%;
+                margin: auto;
+                background: rgb(51, 178, 252);
+                padding: 20px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                margin-top: 50px;
+            }
+
+            .profile-pic {
+                width: 150px;
+                height: 150px;
+                border-radius: 50%;
+                margin: auto;
+                display: block;
+                border: 3px solid #000000;
+                box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+            }
+
+            p {
+                font-family: "Jaro", sans-serif;
+                font-weight: 400;
+                /* Light */
+                text-align: center;
+                color: #ce4646;
+            }
+
+            button {
+                font-family: "Jaro", sans-serif;
+                font-weight: 500;
+                /* Light */
+                background-color: #22cdda;
+                color: rgb(255, 255, 255);
+                border: none;
+                padding: 10px 20px;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+
+            button:hover {
+                background-color: #14a3db;
+            }
